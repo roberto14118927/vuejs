@@ -2,6 +2,7 @@
   <div id="app">
     <img src="https://roberto14118927.github.io/vuejs/src/assets/logo.png">
     <h1>{{ msg }}</h1>
+    <h3>{{ msg1 }}</h3>
 
   </div>
 </template>
@@ -11,7 +12,8 @@ export default {
   name: 'app',
   data () {
     return {
-      msg: 'Prepárense para el Super Curso de Vue.js'
+      msg: 'Prepárense para el Super Curso de Vue.js',
+      msg1: 'Ing. Roberto Eduardo Guzmán Ruiz'
     }
   }
 }
@@ -30,6 +32,11 @@ export default {
 h1, h2 {
   font-weight: normal;
   color: #2c3e50  
+}
+
+h3 {
+  font-weight: normal;
+  color: #c1bdbd
 }
 
 ul {
