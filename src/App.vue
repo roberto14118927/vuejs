@@ -11,7 +11,7 @@ export default {
   name: 'app',
   data () {
     return {
-      msg: 'Roberto Eduardo Guzmán Ruiz'
+      msg: 'Prepárense para el Super Curso de Vue.js'
     }
   }
 }
